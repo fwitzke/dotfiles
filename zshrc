@@ -11,14 +11,8 @@ DEFAULT_USER="fwitzke"
 
 export LC_ALL=en_US.utf-8 
 export LANG="$LC_ALL" 
-
-#export PATH=/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.rvm/bin
-#export PATH=/Library/Frameworks/GDAL.framework/Versions/1.11/Programs:$PATH
-
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
-
-# use brew version instead of default osx
-alias vim="/usr/local/bin/vim"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)

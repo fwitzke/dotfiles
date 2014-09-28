@@ -31,3 +31,9 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 ```bash
 brew bundle ~/Caskfile
 ```
+
+### TODO
+[install oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
+[install Vundle](https://github.com/gmarik/Vundle.vim)
+[install Solarized](http://ethanschoonover.com/solarized)
+[install rvm](http://rvm.io/)

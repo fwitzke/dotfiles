@@ -7,5 +7,6 @@ install ack
 install ag
 install git
 install rcm
+install vim --override-system-vim
 
 cleanup   # Remove outdated versions from the cellar
