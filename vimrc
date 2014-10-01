@@ -45,5 +45,6 @@ if executable('ag')
 endif
 
 map <Leader>i mmgg=G`m<CR>
+map <Leader>c "+y<cr>
 map <Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>
 map <Leader>h :noh<cr>
