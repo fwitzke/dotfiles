@@ -1,20 +1,14 @@
 set nocompatible
 filetype off
+syntax on
 
-" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-" call vundle#begin('~/some/path/here')
-
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
-
-" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-" Put your non-Plugin stuff after this line
 
 set backspace=indent,eol,start
 set cindent
@@ -29,15 +23,6 @@ set shiftwidth=2
 set smartcase
 set softtabstop=2
 set tabstop=2
-
-" set winwidth=84
-" set winheight=10
-" set winminheight=10
-" set winheight=999
-
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
 
 if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
