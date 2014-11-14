@@ -13,17 +13,25 @@ filetype plugin indent on    " required
 
 set backspace=indent,eol,start
 set cindent
-set cursorline
 set expandtab
 set hlsearch
 set incsearch
 set ignorecase
-set rnu
+set nowrap
+set nu
 set ruler
 set shiftwidth=2
 set smartcase
 set softtabstop=2
+set synmaxcol=250
 set tabstop=2
+
+" set winwidth=84
+" set winheight=10
+" set winminheight=10
+" set winheight=999
+
+syntax on
 
 if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
