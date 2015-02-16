@@ -22,6 +22,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set nowrap
+set noswapfile
 set nu
 set ruler
 set shiftwidth=2
