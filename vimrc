@@ -55,3 +55,6 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+
+" making sure vim loads the right rvm ruby (http://rvm.io/integration/vim)
+set shell=/bin/sh
