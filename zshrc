@@ -7,8 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="pygmalion"
 
-DEFAULT_USER="fwitzke"
-
 export LC_ALL=en_US.utf-8 
 export LANG="$LC_ALL" 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$PATH
@@ -19,5 +17,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 plugins=(bower git)
 
 source $(brew --prefix nvm)/nvm.sh
+source $HOME/.shortcuts.sh
+
 
 source $ZSH/oh-my-zsh.sh
