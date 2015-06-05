@@ -11,6 +11,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'thoughtbot/vim-rspec'
+Plugin 'rking/ag.vim'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -49,12 +51,18 @@ map <Leader>c "+y<cr>
 map <Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>
 map <Leader>h :noh<cr>
 
+map <Leader>d orequire 'pry'; binding.pry<esc><CR>
+
 " RSpec.vim mappings
 let g:rspec_runner = "os_x_iterm"
-map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>t :wa\|:call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+
+if &diff
+  colorscheme myscheme
+endif
 
 " making sure vim loads the right rvm ruby (http://rvm.io/integration/vim)
 set shell=/bin/sh
