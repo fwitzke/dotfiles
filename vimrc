@@ -13,6 +13,11 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'terryma/vim-multiple-cursors'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -60,6 +65,8 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+" colorscheme github
+colorscheme railscasts
 if &diff
   colorscheme myscheme
 endif
