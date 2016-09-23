@@ -14,6 +14,7 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'airblade/vim-gitgutter'
@@ -28,6 +29,7 @@ set expandtab
 set hlsearch
 set incsearch
 set ignorecase
+set mouse=a
 set nowrap
 set noswapfile
 set nu
@@ -57,6 +59,9 @@ map <Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>
 map <Leader>h :noh<cr>
 
 map <Leader>d orequire 'pry'; binding.pry<esc><CR>
+
+" NERDTree Reveal
+map <Leader>r :NERDTreeFind<CR>
 
 " RSpec.vim mappings
 let g:rspec_runner = "os_x_iterm"
