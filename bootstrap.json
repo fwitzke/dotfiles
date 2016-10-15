@@ -1,0 +1,45 @@
+{
+  "casks": [
+    "1password",
+    "flux",
+    "google-chrome",
+    "google-drive",
+    "iterm2",
+    "java",
+    "skype",
+    "slack",
+    "spectacle",
+    "spotify",
+    "vlc"
+  ],
+  "formulas": [
+    "ag",
+    "android-sdk",
+    "certbot",
+    "curl",
+    "git",
+    "git-crypt",
+    "go",
+    "gradle",
+    "imagemagick",
+    "mongodb",
+    "openssl",
+    "postgresql",
+    "qt",
+    "redis",
+    "sqlite",
+    "tree",
+    "vim --override-system-vim"
+  ],
+  "taps": [
+    "caskroom/cask",
+    "caskroom/fonts",
+    "caskroom/versions",
+    "homebrew/binary",
+    "homebrew/core",
+    "homebrew/python",
+    "homebrew/services",
+    "homebrew/versions",
+    "thoughtbot/formulae"
+  ]
+}
