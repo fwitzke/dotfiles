@@ -71,7 +71,9 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 " colorscheme github
-colorscheme railscasts
+" colorscheme railscasts
+" colorscheme monokai
+colorscheme distinguished
 if &diff
   colorscheme myscheme
 endif
