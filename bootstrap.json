@@ -26,6 +26,7 @@
     "openssl",
     "postgresql",
     "qt",
+    "rcm",
     "redis",
     "sqlite",
     "tree",
