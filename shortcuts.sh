@@ -2,8 +2,12 @@
 alias c="clear"
 alias j="jobs -l"
 alias vi=vim
-alias rb="git fetch upstream master; git rebase upstream/master master"
+alias rb="git pull --rebase origin master"
 alias gpr="git push -u origin \$(git rev-parse --abbrev-ref HEAD); hub pull-request"
+alias ctags="`brew --prefix`/bin/ctags"
+
+alias be="bundle exec $1"
+alias rc="bundle exec rails console"
 
 alias cat="bat"
 alias ping="prettyping --nolegend"
