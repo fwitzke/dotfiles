@@ -11,6 +11,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rhubarb' " github extension for vim-fugitive
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'editorconfig/editorconfig-vim'
@@ -92,9 +93,6 @@ endif
 " colorscheme railscasts
 " colorscheme monokai
 colorscheme distinguished
-if &diff
-  colorscheme myscheme
-endif
 
 " making sure vim loads the right rvm ruby (http://rvm.io/integration/vim)
 set shell=/bin/sh
